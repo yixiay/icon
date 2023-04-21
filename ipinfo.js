@@ -1,4 +1,4 @@
-var title = '        馃攷 IP Info'
+var title = 'IP Info'
 
 $task.fetch({
     url: 'http://ip.343.re/info',
@@ -24,7 +24,7 @@ function errMsg(reason) {
 
 function format(info) {
     if (info['status'] !== 'T') {
-        return errMsg('馃洃 鏌ヨ澶辫触')
+        return errMsg('11这是？？')
     }
     field = {
         'ip': 'IP',
